@@ -1,0 +1,43 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/FifaSoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/WoodenChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3006670119948927 0.2976769705714178 0.9060837539043984 1.6792107885716367
+  position 0.0038380311398416743 -6.4263124260330375 5.170727089546685
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+  floorTileSize 1 1
+  wallThickness 0.05
+  wallHeight 0.5
+}
+FifaSoccerBall {
+  hidden linearVelocity_0 -0.15142819696639806 0 5.696807882167885e-09
+  hidden angularVelocity_0 0 -1.3460284174790937 0
+  translation 1.072684370125861 0 0.1118250712738836
+  rotation 0 -1 0 -2.9940631573048515
+}
+Ball {
+  translation 0 0.96 0.1625
+  radius 0.2
+}
+WoodenChair {
+  translation -1.50296 0.48323 0
+  rotation 0 0 1 -1.047195307179586
+}
+E-puck {
+  translation -0.5 -0.81 0
+}
